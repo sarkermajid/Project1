@@ -1,0 +1,151 @@
+*{
+	padding: 0px;
+	margin: 0;
+
+}
+header {
+	width: 1300px;
+	height: auto;
+	margin: 0 auto;
+}
+.nav h1 {
+	color: red;
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	font-family:"Lucida Console", Courier, monospace;
+}
+.nav {
+	width: 1300px;
+	height: auto;
+	background-color: #000;
+}
+.nav ul li {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+}
+.nav ul li a {
+	display: block;
+	font-size: 25px;
+	font-weight: bold;
+	color: #06C167;
+	text-transform: uppercase;
+	padding: 20px 30px;
+	text-decoration: none;
+}
+.nav ul li a:hover{
+	color: white ;
+	background-color:red;
+}
+.nav ul li ul {
+	position: absolute;
+	background-color: black;
+	color: #06C167;
+	left: -9999px;
+}
+.nav ul li:hover ul {
+	left: 0px;
+}
+.nav ul li ul li {
+	width: 200px;
+	border-bottom: 1px solid #06C167;
+}
+.banner-cover {
+	width: 1300px;
+	height: 500px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+.banner-text {
+	padding: 100px;
+	text-align: center;
+}
+.banner-text button {
+	font size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 20px;
+	border : 0px;
+	background-color: #000;
+	color: #06C167;
+	margin-top: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.banner-text button:hover {
+	color: white;
+	background-color: red;
+}
+.About-logo img {
+	width: 400px;
+	height: auto;
+	margin: 0px 30px;
+	margin-bottom: 10px;
+	box-shadow: 0px 10px 10px 0px #C63300;
+}
+.about-text {
+	width: 700px;
+	height: auto;
+	padding: 5px 10px;
+}
+.about-text h2 {
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: red;
+	border-bottom: 3px solid red;
+	margin-bottom: 5px;
+}
+
+.about-text p {
+	font-size: 20px;
+	color:#06C167;
+	line-height: 25px;
+	letter-spacing: 3px;
+}
+.row {
+	overflow: auto;
+}
+.col {
+	float: left;
+
+}
+.About-section {
+	background-color: #212121;
+	padding: 40px 0px;
+}
+.title {
+	width: 220px;
+	height: auto;
+	margin: 0 auto;
+}
+.title h1 {
+	font-size: 20px
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.title h1:hover {
+	color: yellow;
+	text-decoration: underline;
+}
+.last{
+	width: 1300px;
+	height: auto;
+	margin: 0 -30px;
+}
+.last p{
+	font-size: 15px;
+	font-weight: initial;
+	font-style: italic;
+	color: #778899;
+	text-align: right;
+	margin-bottom: -20px;
+	margin-top: 100px;
+}
